@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family:'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: whitesmoke;
+}
+
+header {
+    display: flex;
+    height: 665px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    padding-left: 25px;
+    width: 100%;
+    font-size: 50px;
+    color: #009E4D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h3 {
+    color: black;
+    padding-bottom: 5px;
+}
+
+header p {
+    color: black;
+    padding-left: 275px;
+    padding-right: 275px;
+    padding-bottom: 20px;
+    background-color: linear-gradient(120deg,#020617,#0f172a);
+}
+
+.premier {
+    display: flex;
+    color: black;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+.premier h2 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.first_block {
+    display: flex;
+    background-color: #009E4D;
+    width: 260px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.premier p {
+    display: flex;
+    width: 1000px;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.deuxième {
+    display: flex;
+    color: black;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;
+}
+
+.deuxième h2 {
+    display: flex;
+    font-size: 30px;
+}
+
+.second_block {
+    display: flex;
+    background-color: #009E4D;
+    width: 375px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.choupette {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.gigi {
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.nala {
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.troisième {
+    display: flex;
+    color: black;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;   
+}
+
+.troisième h2 {
+    display: flex;
+    font-size: 30px;
+}
+
+.third_block {
+    display: flex;
+    background-color: #009E4D;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.travail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.jobEté {
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.Stagiaire {
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.quatrième {
+    display: flex;
+    color: black;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;
+}
+
+.quatrième h2 {
+    display: flex;
+    font-size: 30px;
+}
+
+.fourth_block {
+    display: flex;
+    background-color: #009E4D;
+    width: 225px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.hardSkills {
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.softSkills {
+    display: flex;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cinquième {
+    display: flex;
+    color: black;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;
+}
+
+.cinquième h2 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.fifth_block {
+    display: flex;
+    background-color: #009E4D;
+    width: 115px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraphe {
+    display: flex;
+    width: 1000px;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sixième {
+    display: flex;
+    color: black;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;
+}
+
+.sixième h2 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.sixth_block {
+    display: flex;
+    background-color: #009E4D;
+    width: 135px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    width: 1000px;
+    padding-top: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.button {
+    display: flex;
+    color: white;
+    background-color: #009E4D;
+    font-weight: 600;
+    font-size: larger;
+    border: 2px;
+    border-radius: 5px;
+    padding: 17px;
+}
+
+.droit_auteur {
+    display: flex;
+    color: rgba(0, 0, 0, 0.39);
+    padding-top: 150px;
+    padding-bottom: 25px;
+}
